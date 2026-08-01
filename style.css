@@ -318,13 +318,14 @@ main #quotes{
         justify-content: center;
     }
     #hero-buttons{
-        /* gap: 12px; */
+        gap: 12px;
         display: flex;
         flex-direction: row; 
         align-items: center;
         padding-bottom:30px ;
-        display: flex;  
-        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
     
