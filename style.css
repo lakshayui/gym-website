@@ -218,6 +218,14 @@ main #quotes{
     border-color: rgb(177,151,252,0.2);
 }
 
+#about h1{
+    padding-bottom: 30px;
+}
+
+#intro{
+    padding-bottom: 30px;
+}
+
 
 #services{
     display: flex;
