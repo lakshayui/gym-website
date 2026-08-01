@@ -320,10 +320,10 @@ main #quotes{
     #hero-buttons{
         /* gap: 12px; */
         display: flex;
-        /* flex-direction: row; */
-        /* align-items: center; */
-        /* padding-bottom:30px ; */
-        /* display: flex; */
+        flex-direction: row; 
+        align-items: center;
+        padding-bottom:30px ;
+        display: flex;  
         justify-content: center;
     }
 
