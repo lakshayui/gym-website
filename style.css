@@ -324,7 +324,7 @@ main #quotes{
         /* align-items: center; */
         /* padding-bottom:30px ; */
         /* display: flex; */
-        /* justify-content: center; */
+        justify-content: center;
     }
 
     
