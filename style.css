@@ -285,17 +285,27 @@ main #quotes{
         overflow-x: hidden;
     }
     #quotes{
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
     }
     .hero-img{
+        margin-top: 40px;
         height: auto;
         width: 600px;
         max-width: 100%;
     }
     .hero-text{
-        margin-top: 50px;
-        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        /* text-align: center; */
+        /* box-sizing: border-box; */
+       
     }
     #highlights{
         flex-wrap: wrap;
@@ -308,8 +318,16 @@ main #quotes{
         justify-content: center;
     }
     #hero-buttons{
-        padding-bottom:30px ;
+        /* gap: 12px; */
         display: flex;
-        justify-content: center;
+        /* flex-direction: row; */
+        /* align-items: center; */
+        /* padding-bottom:30px ; */
+        /* display: flex; */
+        /* justify-content: center; */
     }
+
+    
+    
+    
 }
