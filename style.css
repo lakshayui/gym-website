@@ -1,16 +1,59 @@
 *{
+    color: white;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/* Header Alignment & Padding Fix */
+header {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 12px 15px !important; /* Left-Right spacing barabar karne ke liye */
+    box-sizing: border-box !important;
+}
+
+/* Logo Alignment */
+.logo, header h3, header h1 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Links Gap Adjust */
+nav {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+nav a {
+    font-size: 13px !important;
+}
+
+/* Sign Up Button Fit */
+.sign-up, header button {
+    padding: 6px 12px !important;
+    font-size: 12px !important;
+}
+
 
     
-body{
+/* Navbar aur Header ke extra left space ko hatane ke liye */
+body {
     background-color: black;
-    color: white;
-    
-    
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+
+header {
+    width: 100% !important;
+    margin: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
 }
 header{
     background: linear-gradient(135deg, red,black);
@@ -254,4 +297,90 @@ main #quotes{
 }
 #our-services p{
     font-size: 20px;
+}
+
+/* Mobile Responsive Clean Fixes */
+/* Mobile View Clean Layout Fix */
+/* ALL-IN-ONE MOBILE FIX */
+/* ALL-IN-ONE MOBILE FIX */
+/* FORCE MOBILE VERTICAL STACK */
+@media only screen and (max-width: 768px) {
+    
+    /* Body & Container resets */
+    body, main, div {
+        max-width: 100% !important;
+    }
+
+    /* Target the container wrapping quote and image */
+    body > div, main, .hero-container, section {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* Left Text/Button Box full width */
+    #quotes, #quotes ~ div {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+    }
+
+    /* Image center fix */
+    img {
+        width: 250px !important;
+        height: auto !important;
+        margin: 20px auto !important;
+        display: block !important;
+    }
+}
+/* Perfect Balanced Mobile Header */
+
+
+
+/* Center Aligned Navbar for Mobile */
+/* ALL HEADER ELEMENTS CENTERED */
+header {
+    display: flex !important;
+    flex-direction: column !important; /* Items ek ke niche ek aayenge */
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 12px 10px !important;
+    gap: 10px !important;
+    text-align: center !important;
+}
+
+/* Logo Center */
+header .logo, header h3, header h1, header a:first-child {
+    margin: 0 auto !important;
+    text-align: center !important;
+    display: block !important;
+}
+
+/* Nav Box Center */
+nav, header nav {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+nav a {
+    font-size: 13px !important;
+    text-align: center !important;
+}
+
+/* Sign Up Button Center */
+.sign-up, header button {
+    margin: 0 auto !important;
+    display: inline-block !important;
+    padding: 6px 14px !important;
 }
